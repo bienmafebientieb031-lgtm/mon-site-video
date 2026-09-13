@@ -14,7 +14,7 @@ const videos = [
     description: "Remplace cette vidéo par les tiennes."
   },
   {
-    videoId: "dQw4w9WgXcQ",
+    videoId: "TkbNbL_0HCI&t=62s",
     title: "Deuxième exemple",
     description: "Tu peux ajouter autant de vidéos que tu veux."
   }
