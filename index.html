@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MonTube</title>
+  <meta name="description" content="Lecteur vidéo YouTube personnalisé">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">MonTube</div>
+    <div class="search">
+      <input id="searchInput" type="search" placeholder="Rechercher une vidéo..." aria-label="Rechercher">
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="player-section">
+      <div class="player-wrap">
+        <div id="player"></div>
+      </div>
+      <h1 id="videoTitle">Sélectionne une vidéo</h1>
+      <p id="videoDescription">Choisis une vidéo dans la liste pour commencer.</p>
+    </section>
+
+    <aside class="playlist">
+      <h2>Vidéos</h2>
+      <div id="videoList"></div>
+    </aside>
+  </main>
+
+  <footer>
+    <p>Les vidéos sont diffusées via YouTube.</p>
+  </footer>
+
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="script.js"></script>
+</body>
+</html>
