@@ -15,7 +15,7 @@ const videos = [
   },
   {
     videoId: "TkbNbL_0HCI",
-    title: "Deuxième exemple",
+    title: "24H pour braquer une banque",
     description: "Tu peux ajouter autant de vidéos que tu veux."
   }
 ];
